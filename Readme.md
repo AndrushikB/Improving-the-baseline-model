@@ -9,7 +9,7 @@
 
         pip install -r requirements.txt
 
-        (возможно потребуется дополнительно: pip install psycopg2-binary)
+   (возможно потребуется дополнительно: pip install psycopg2-binary)
 
 2. Этап 1
 
