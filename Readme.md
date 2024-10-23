@@ -25,6 +25,10 @@
 
    Логирование базовой модели: base_model_registry
 
+   Эксперимент: flats_andreybikmulinvik
+   
+   id: 3
+
 3. Этап 2
 
    Ключевые шаги EDA:
