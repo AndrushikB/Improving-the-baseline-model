@@ -3,7 +3,7 @@
 
 1. Запуск проекта
 
-    git clone https://github.com/AndrushikB/mle-project-sprint-2-v001.git
+  git clone https://github.com/AndrushikB/mle-project-sprint-2-v001.git
 
   cd mle-project-sprint-2-v001
 
