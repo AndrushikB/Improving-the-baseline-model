@@ -1,0 +1,94 @@
+artifact_path: models
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.1
+mlflow_version: 2.7.1
+model_uuid: efc3ba1684e24388933bba2bbfd3cc81
+run_id: 4a99653eff764c6d91421996678fc4f6
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "id"}, {"type": "long", "name": "building_id"},
+    {"type": "long", "name": "build_year"}, {"type": "long", "name": "building_type_int"},
+    {"type": "double", "name": "latitude"}, {"type": "double", "name": "longitude"},
+    {"type": "double", "name": "ceiling_height"}, {"type": "long", "name": "flats_count"},
+    {"type": "long", "name": "floors_total"}, {"type": "boolean", "name": "has_elevator"},
+    {"type": "long", "name": "floor"}, {"type": "double", "name": "kitchen_area"},
+    {"type": "double", "name": "living_area"}, {"type": "long", "name": "rooms"},
+    {"type": "boolean", "name": "is_apartment"}, {"type": "double", "name": "total_area"},
+    {"type": "double", "name": "num__spl__living_area_sp_0"}, {"type": "double", "name":
+    "num__spl__living_area_sp_1"}, {"type": "double", "name": "num__spl__living_area_sp_2"},
+    {"type": "double", "name": "num__spl__living_area_sp_3"}, {"type": "double", "name":
+    "num__spl__living_area_sp_4"}, {"type": "double", "name": "num__spl__living_area_sp_5"},
+    {"type": "double", "name": "num__spl__kitchen_area_sp_0"}, {"type": "double",
+    "name": "num__spl__kitchen_area_sp_1"}, {"type": "double", "name": "num__spl__kitchen_area_sp_2"},
+    {"type": "double", "name": "num__spl__kitchen_area_sp_3"}, {"type": "double",
+    "name": "num__spl__kitchen_area_sp_4"}, {"type": "double", "name": "num__spl__kitchen_area_sp_5"},
+    {"type": "double", "name": "num__spl__total_area_sp_0"}, {"type": "double", "name":
+    "num__spl__total_area_sp_1"}, {"type": "double", "name": "num__spl__total_area_sp_2"},
+    {"type": "double", "name": "num__spl__total_area_sp_3"}, {"type": "double", "name":
+    "num__spl__total_area_sp_4"}, {"type": "double", "name": "num__spl__total_area_sp_5"},
+    {"type": "double", "name": "num__spl__latitude_sp_0"}, {"type": "double", "name":
+    "num__spl__latitude_sp_1"}, {"type": "double", "name": "num__spl__latitude_sp_2"},
+    {"type": "double", "name": "num__spl__latitude_sp_3"}, {"type": "double", "name":
+    "num__spl__latitude_sp_4"}, {"type": "double", "name": "num__spl__latitude_sp_5"},
+    {"type": "double", "name": "num__spl__ceiling_height_sp_0"}, {"type": "double",
+    "name": "num__spl__ceiling_height_sp_1"}, {"type": "double", "name": "num__spl__ceiling_height_sp_2"},
+    {"type": "double", "name": "num__spl__ceiling_height_sp_3"}, {"type": "double",
+    "name": "num__spl__ceiling_height_sp_4"}, {"type": "double", "name": "num__spl__ceiling_height_sp_5"},
+    {"type": "double", "name": "num__spl__longitude_sp_0"}, {"type": "double", "name":
+    "num__spl__longitude_sp_1"}, {"type": "double", "name": "num__spl__longitude_sp_2"},
+    {"type": "double", "name": "num__spl__longitude_sp_3"}, {"type": "double", "name":
+    "num__spl__longitude_sp_4"}, {"type": "double", "name": "num__spl__longitude_sp_5"},
+    {"type": "double", "name": "num__q__living_area"}, {"type": "double", "name":
+    "num__q__kitchen_area"}, {"type": "double", "name": "num__q__total_area"}, {"type":
+    "double", "name": "num__q__latitude"}, {"type": "double", "name": "num__q__ceiling_height"},
+    {"type": "double", "name": "num__q__longitude"}, {"type": "double", "name": "num__rb__living_area"},
+    {"type": "double", "name": "num__rb__kitchen_area"}, {"type": "double", "name":
+    "num__rb__total_area"}, {"type": "double", "name": "num__rb__latitude"}, {"type":
+    "double", "name": "num__rb__ceiling_height"}, {"type": "double", "name": "num__rb__longitude"},
+    {"type": "double", "name": "num__pol__1"}, {"type": "double", "name": "num__pol__living_area"},
+    {"type": "double", "name": "num__pol__kitchen_area"}, {"type": "double", "name":
+    "num__pol__total_area"}, {"type": "double", "name": "num__pol__latitude"}, {"type":
+    "double", "name": "num__pol__ceiling_height"}, {"type": "double", "name": "num__pol__longitude"},
+    {"type": "double", "name": "num__pol__living_area^2"}, {"type": "double", "name":
+    "num__pol__living_area kitchen_area"}, {"type": "double", "name": "num__pol__living_area
+    total_area"}, {"type": "double", "name": "num__pol__living_area latitude"}, {"type":
+    "double", "name": "num__pol__living_area ceiling_height"}, {"type": "double",
+    "name": "num__pol__living_area longitude"}, {"type": "double", "name": "num__pol__kitchen_area^2"},
+    {"type": "double", "name": "num__pol__kitchen_area total_area"}, {"type": "double",
+    "name": "num__pol__kitchen_area latitude"}, {"type": "double", "name": "num__pol__kitchen_area
+    ceiling_height"}, {"type": "double", "name": "num__pol__kitchen_area longitude"},
+    {"type": "double", "name": "num__pol__total_area^2"}, {"type": "double", "name":
+    "num__pol__total_area latitude"}, {"type": "double", "name": "num__pol__total_area
+    ceiling_height"}, {"type": "double", "name": "num__pol__total_area longitude"},
+    {"type": "double", "name": "num__pol__latitude^2"}, {"type": "double", "name":
+    "num__pol__latitude ceiling_height"}, {"type": "double", "name": "num__pol__latitude
+    longitude"}, {"type": "double", "name": "num__pol__ceiling_height^2"}, {"type":
+    "double", "name": "num__pol__ceiling_height longitude"}, {"type": "double", "name":
+    "num__pol__longitude^2"}, {"type": "double", "name": "num__kbd__living_area"},
+    {"type": "double", "name": "num__kbd__kitchen_area"}, {"type": "double", "name":
+    "num__kbd__total_area"}, {"type": "double", "name": "num__kbd__latitude"}, {"type":
+    "double", "name": "num__kbd__ceiling_height"}, {"type": "double", "name": "num__kbd__longitude"},
+    {"type": "double", "name": "cat__building_type_int_1"}, {"type": "double", "name":
+    "cat__building_type_int_2"}, {"type": "double", "name": "cat__building_type_int_3"},
+    {"type": "double", "name": "cat__building_type_int_4"}, {"type": "double", "name":
+    "cat__building_type_int_5"}, {"type": "double", "name": "cat__building_type_int_6"},
+    {"type": "double", "name": "cat__is_apartment_True"}, {"type": "double", "name":
+    "cat__has_elevator_True"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-10-22 22:52:40.674475'
