@@ -3,13 +3,13 @@
 
 1. Запуск проекта
 
-    git clone https://github.com/AndrushikB/mle-project-sprint-2-v001.git
+        git clone https://github.com/AndrushikB/mle-project-sprint-2-v001.git
 
-    cd mle-project-sprint-2-v001
+        cd mle-project-sprint-2-v001
 
-    pip install -r requirements.txt
+        pip install -r requirements.txt
 
-    (возможно потребуется дополнительно: pip install psycopg2-binary)
+        (возможно потребуется дополнительно: pip install psycopg2-binary)
 
 2. Этап 1
 
