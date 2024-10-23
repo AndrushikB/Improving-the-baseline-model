@@ -27,7 +27,7 @@
 
    Эксперимент: flats_andreybikmulinvik
    
-   id: 3
+   id эксперимента: 3
 
 3. Этап 2
 
