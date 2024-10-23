@@ -66,4 +66,7 @@
    Запуски в mlflow: bayesian_search, random_search
 
    Логирование финальной версии модели: model_3_hyperparam
+
+
+Все конечные версии запусков в MLflow имею тэг: Final
    
